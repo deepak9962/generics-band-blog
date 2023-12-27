@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="This is the description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Store</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">The Generics</h1>
+    </header>
+
+    <section class="container content-section">
+      <h2 class="section-header">MUSIC</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Album 1</span>
+          <img
+            class="shop-item-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyymfg7dWTyUHs-XKgpHfctwdoqmGzluksFZE5xPnICBh_ASVsPv5EbcwYy9M0b-PCxys&usqp=CAU"
+            alt="Album 1 Image"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$12.00</span>
+            <button class="btn btn-primary" role="button">ADD TO CARD</button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Album 2</span>
+          <img
+            class="shop-item-image"
+            src="https://gp1.wac.edgecastcdn.net/802892/http_public_production/artists/images/5615397/original/crop:x0y0w640h640/hash:1484793713/artist_5615397-1484778555.jpg?1484793713"
+            alt="Album 2 Image"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$14.99</span>
+            <button class="btn btn-primary" role="button">ADD TO CARD</button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Album 3</span>
+          <img
+            class="shop-item-image"
+            src="data:image/jpeg;base64,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"
+            alt="Album 3 Image"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$8.49</span>
+            <button class="btn btn-primary" role="button">ADD TO CARD</button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Album 4</span>
+
+          <img
+            class="shop-item-image"
+            src="https://f4.bcbits.com/img/a2112223669_2.jpg"
+            alt="Album 4 Image"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$15.49</span>
+            <button class="btn btn-primary" role="button">ADD TO CARD</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">MERCH</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">T-Shirt</span>
+          <img
+            class="shop-item-image"
+            src="https://ih1.redbubble.net/image.652713467.3460/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.u5.jpg"
+            alt="Merch T-Shirt White"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$14.99</span>
+            <button class="btn btn-primary" role="button">ADD TO CARD</button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Colour Cup</span>
+          <img
+            class="shop-item-image"
+            src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71A2zpj8BJL._AC_UF894,1000_QL80_.jpg"
+            alt="Merch Cup White with Evening Paint"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$4.99</span>
+            <button class="btn btn-primary" role="button">ADD TO CARD</button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Generics Band Cap</span>
+          <img
+            class="shop-item-image"
+            src="https://static.wixstatic.com/media/59221d_96521c2ddba641debc45753bec1e81a7~mv2.png/v1/fill/w_520,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59221d_96521c2ddba641debc45753bec1e81a7~mv2.png"
+            alt="Merch Cap Black"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$14.99</span>
+            <button class="btn btn-primary" role="button">ADD TO CARD</button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Jeans</span>
+          <img
+            class="shop-item-image"
+            width="225px"
+            style="object-fit: contain"
+            src="https://assets.ajio.com/medias/sys_master/root/20230320/ZsVu/6417fe00f997dde6f4080c6e/-473Wx593H-469290309-offwhite-MODEL.jpg"
+            alt="Merch Jeans Blue"
+          />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$15.99</span>
+            <button class="btn btn-primary" role="button">ADD TO CARD</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEMS</span>
+        <span class="cart-item cart-header cart-column">PRICE</span>
+        <span class="cart-item cart-header cart-column">QUANTITY</span>
+      </div>
+
+      <div class="cart-items">
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="https://ih1.redbubble.net/image.652713467.3460/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.u5.jpg"
+              alt="Merch T-Shirt White"
+              width="100"
+              height="100"
+            />
+            <span class="cart-item-title">T-Shirt</span>
+          </div>
+          <span class="cart-price cart-column">$14.99</span>
+          <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1" />
+            <button class="btn btn-danger cart-quantity-btn" role="button">
+              REMOVE
+            </button>
+          </div>
+        </div>
+
+        <div class="cart-row">
+          <div class="cart-item cart-column">
+            <img
+              class="cart-item-image"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyymfg7dWTyUHs-XKgpHfctwdoqmGzluksFZE5xPnICBh_ASVsPv5EbcwYy9M0b-PCxys&usqp=CAU"
+              alt="Album 1 Image"
+              width="100"
+              height="100"
+            />
+            <span class="cart-item-title">Album 1</span>
+          </div>
+          <span class="cart-price cart-column">$12.00</span>
+          <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="2" />
+            <button class="btn btn-danger cart-quantity-btn" role="button">
+              REMOVE
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$26.99</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+    </section>
+
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">The Generics</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://youtube.com/" target="_blank"
+              ><img src="./img/yt.png" width="24px" height="24px" alt="Youtube"
+            /></a>
+          </li>
+          <li>
+            <a href="https://spotify.com/" target="_blank">
+              <img src="./img/spotify.png" alt="spotify link" />
+            </a>
+          </li>
+          <li>
+            <a href="https://x.com/" target="_blank">
+              <img src="./img/twt.png" alt="X link" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
